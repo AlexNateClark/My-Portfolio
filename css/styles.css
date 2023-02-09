@@ -99,7 +99,29 @@ body {
   color: #ffffff;
 }
 
-
+.education_container{
+  width: 800px;
+  height: 250px;
+  background-color: #0a98b4;
+  display: flex;
+  justify-content: center;
+}
+.coding_dojo_logo{
+  width: 30px;
+  height: 50px;
+  background-color: #13653f;
+  margin-bottom: 25px;
+}
+.coding_title_container{
+  width: 250px;
+  height: 100px;
+  background-color: #6f42c1;
+}
+.title_coding_dojo{
+  width: 80px;
+  height: 45px;
+  background-color: #dc3545;
+}
 
 
 
