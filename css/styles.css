@@ -122,7 +122,9 @@ body {
   margin-top: 9rem;
   margin-left: -29rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .coding_title{
   background-color: #0dcaf0;
@@ -131,7 +133,9 @@ body {
   font-size: x-large;
 }
 .coding_description{
-  
+  background-color: lightgreen;
+  width: 55rem;
+  height: 9rem;
 }
 
 
