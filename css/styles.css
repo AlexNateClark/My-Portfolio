@@ -110,8 +110,9 @@ body {
 .dojo_logo{
   width: 8rem;
   height: 8rem;
-  background-color: darkmagenta;
   border-radius: 50%;
+  background-image: url(../assets/img/coding_dojo.jpg);
+  background-size: 100%;
 }
 
 .coding_dojo_container{
