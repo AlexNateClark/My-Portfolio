@@ -116,12 +116,12 @@ body {
 }
 
 .coding_dojo_container{
-  width: 65rem;
+  width: 75rem;
   height: 16rem;
   padding-top: .45rem;
   background-color: hotpink;
   margin-top: 9rem;
-  margin-left: -29rem;
+  margin-left: -33rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -135,8 +135,8 @@ body {
 }
 .coding_description{
   background-color: lightgreen;
-  width: 55rem;
-  height: 9rem;
+  width: 20rem;
+  height: 10rem;
 }
 
 
