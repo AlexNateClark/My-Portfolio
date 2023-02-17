@@ -100,12 +100,13 @@ body {
 }
 
 .education_container{
-  width: 83rem;
-  height: 50rem;
+  width: 85rem;
+  height: 55rem;
   background-color: #0a98b4;
   display: flex;
   justify-content: center;
   padding-top: 1rem;
+  margin-left: -2rem;
 }
 .dojo_logo{
   width: 8rem;
@@ -116,8 +117,8 @@ body {
 }
 
 .coding_dojo_container{
-  width: 82rem;
-  height: 35rem;
+  width: 83rem;
+  height: 41rem;
   padding-top: .45rem;
   background-color: hotpink;
   margin-top: 9rem;
@@ -135,8 +136,8 @@ body {
 }
 .coding_description_container{
   background-color: lightgreen;
-  width: 81rem;
-  height: 30rem;
+  width: 82rem;
+  height: 36rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -146,6 +147,7 @@ body {
   background-color: #0dcaf0;
   width: 25rem;
   height: 25rem;
+  margin-bottom: -3rem;
   border-radius: 10%;
   box-shadow: 0 5px 10px rgb(151, 150, 150);
 }
