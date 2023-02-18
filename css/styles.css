@@ -149,7 +149,33 @@ body {
   height: 25rem;
   margin-bottom: -3rem;
   border-radius: 10%;
+  display: flex;
+  justify-content: center;
   box-shadow: 0 5px 10px rgb(151, 150, 150);
+}
+.code_desc_img{
+  width: 8rem;
+  height: 8rem;
+  margin-top: -3rem;
+  border-radius: 10%;
+  background-image: url(../assets/img/html_logo.png);
+  background-size: contain;
+}
+.code_desc_img_2{
+  width: 8rem;
+  height: 8rem;
+  margin-top: -3rem;
+  border-radius: 10%;
+  background-image: url(../assets/img/python_logo.png);
+  background-size: contain;
+}
+.code_desc_img_3{
+  width: 8rem;
+  height: 8rem;
+  margin-top: -3rem;
+  border-radius: 10%;
+  background-image: url(../assets/img/java-script_logo.png);
+  background-size: contain;
 }
 
 
