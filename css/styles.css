@@ -102,7 +102,7 @@ body {
 .education_container{
   width: 85rem;
   height: 55rem;
-  background-color: #0a98b4;
+  /* background-color: #0a98b4; */
   display: flex;
   justify-content: center;
   padding-top: 1rem;
@@ -120,7 +120,7 @@ body {
   width: 83rem;
   height: 41rem;
   padding-top: .45rem;
-  background-color: hotpink;
+  /* background-color: hotpink; */
   margin-top: 9rem;
   margin-left: -37rem;
   display: flex;
@@ -129,13 +129,14 @@ body {
   align-items: center;
 }
 .coding_title{
-  background-color: #0dcaf0;
-  width: 9rem;
-  height: 3rem;
-  font-size: x-large;
+  /* background-color: #0dcaf0; */
+  width: 20rem;
+  height: 4rem;
+  font-size: xx-large;
+  font-family: Montserrat;
 }
 .coding_description_container{
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   width: 82rem;
   height: 36rem;
   display: flex;
@@ -144,7 +145,7 @@ body {
   gap: 1rem;
 }
 .coding_description{
-  background-color: #0dcaf0;
+  background-image: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(255, 209, 6));
   width: 25rem;
   height: 27rem;
   margin-bottom: -3rem;
@@ -208,6 +209,7 @@ body {
   height: 13rem;
   font-size: smaller;
   margin-top: 1rem;
+  font-family: Montserrat;
   color: #ffffff;
 }
 .inner_py_desc{
@@ -215,6 +217,7 @@ body {
   height: 13rem;
   font-size: smaller;
   margin-top: 1rem;
+  font-family: Montserrat;
   color: #ffffff;
 }
 .inner_js_desc{
@@ -222,6 +225,7 @@ body {
   height: 13rem;
   font-size: smaller;
   margin-top: 1rem;
+  font-family: Montserrat;
   color: #ffffff;
 }
 
