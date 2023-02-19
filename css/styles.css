@@ -146,7 +146,7 @@ body {
 .coding_description{
   background-color: #0dcaf0;
   width: 25rem;
-  height: 25rem;
+  height: 27rem;
   margin-bottom: -3rem;
   border-radius: 10%;
   box-shadow: 0 5px 10px rgb(151, 150, 150);
@@ -160,10 +160,11 @@ body {
   background-image: url(../assets/img/html_logo.png);
   background-size: contain;
 }
-/* .code_desc_img_2{
+.code_desc_img_2{
   width: 8rem;
   height: 8rem;
-  margin-top: -3rem;
+  margin-top: -4rem;
+  margin-left: 8rem;
   border-radius: 10%;
   background-image: url(../assets/img/python_logo.png);
   background-size: contain;
@@ -172,11 +173,12 @@ body {
   width: 8rem;
   height: 8rem;
   margin-top: -3rem;
+  margin-left: 8rem;
   border-radius: 10%;
   background-image: url(../assets/img/java-script_logo.png);
   background-size: contain;
-} */
-.inner_cd_title{
+}
+.inner_web_title{
   width: 15rem;
   height: 3rem;
   font-size: x-large;
@@ -185,13 +187,42 @@ body {
   color: #ffffff;
   /* background-color: #eccccf; */
 }
-.inner_cd_desc{
+.inner_py_title{
+  width: 15rem;
+  height: 3rem;
+  font-size: x-large;
+  margin-top: 1rem;
+  margin-left: 9rem;
+  color: #ffffff;
+}
+.inner_js_title{
+  width: 15rem;
+  height: 3rem;
+  font-size: x-large;
+  margin-top: 1rem;
+  margin-left: 9rem;
+  color: #ffffff;
+}
+.inner_web_desc{
   width: 21rem;
   height: 13rem;
   font-size: smaller;
-  margin-top: 2rem;
+  margin-top: 1rem;
   color: #ffffff;
-  /* background-color: #b400cc; */
+}
+.inner_py_desc{
+  width: 24rem;
+  height: 13rem;
+  font-size: smaller;
+  margin-top: 1rem;
+  color: #ffffff;
+}
+.inner_js_desc{
+  width: 24rem;
+  height: 13rem;
+  font-size: smaller;
+  margin-top: 1rem;
+  color: #ffffff;
 }
 
 
@@ -201,7 +232,6 @@ body {
 
 
 
-   
 
 
 
