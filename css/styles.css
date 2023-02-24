@@ -93,7 +93,15 @@ body {
 
 
 
+
+
         /* MY EDITS */
+
+
+
+
+
+/* EDUCATION  */
 
 .name-tag{
   color: #ffffff;
@@ -228,12 +236,24 @@ body {
   font-family: Montserrat;
   color: #ffffff;
 }
+/* END */
 
 
 
 
+/* ABOUT ME  */
 
+.about_timeline_image{
+  width: 9.8rem;
+  height: 9.8rem;
+  border-radius: 50%;
+}
 
+@media (max-width: 9.8rem){
+  .about_timeline_image {
+    min-width: 1rem;
+  }
+}
 
 
 
@@ -11766,7 +11786,7 @@ header.masthead .masthead-heading {
   text-align: center;
   color: white;
   border: 7px solid #e9ecef;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: #ffc800;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
