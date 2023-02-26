@@ -244,15 +244,9 @@ body {
 /* ABOUT ME  */
 
 .about_timeline_image{
-  width: 9.8rem;
-  height: 9.8rem;
-  border-radius: 50%;
-}
-
-@media (max-width: 9.8rem){
-  .about_timeline_image {
-    min-width: 1rem;
-  }
+  max-width: 100%;
+  height: 100%;
+  border-radius: 50%
 }
 
 
