@@ -153,7 +153,7 @@ body {
   gap: 1rem;
 }
 .coding_description{
-  background-image: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(255, 209, 6));
+  background-image: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(61, 197, 255));
   width: 25rem;
   height: 27rem;
   margin-bottom: -3rem;
