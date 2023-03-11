@@ -135,13 +135,7 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-/* .coding_title{
-  background-color: #0dcaf0;
-  width: 20rem;
-  height: 4rem;
-  font-size: xx-large;
-  font-family: Montserrat;
-} */
+
 .coding_description_container{
   width: 82rem;
   height: 36rem;
@@ -192,7 +186,6 @@ body {
   margin-top: 1rem;
   margin-left: 5rem;
   color: #ffffff;
-  /* background-color: #eccccf; */
 }
 .inner_py_title{
   width: 15rem;
