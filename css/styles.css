@@ -248,14 +248,23 @@ body {
 
 .skill-container {
   max-width: 90rem;
-  height: 50rem;
-  background-color: #dc3545;
+  height: 23rem;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
 }
+
+
+
+
 
 .card-container {
   max-width: 35rem;
   height: 17rem;
   perspective: 800px;
+  margin-bottom: 5rem;
+  flex: 1;
 }
 
 .card-container:hover > .skill-card{
@@ -281,6 +290,7 @@ body {
 }
 
 .front-of-card {
+  text-align: center;
   background-color: #e5c7ca;
 }
 
