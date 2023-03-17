@@ -244,8 +244,52 @@ body {
 
 
 
+/* SKILLS */
 
+.skill-container {
+  max-width: 90rem;
+  height: 50rem;
+  background-color: #dc3545;
+}
 
+.card-container {
+  max-width: 35rem;
+  height: 17rem;
+  perspective: 800px;
+}
+
+.card-container:hover > .skill-card{
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.skill-card {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+}
+
+.front-of-card, .back-of-card {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front-of-card {
+  background-color: #e5c7ca;
+}
+
+.back-of-card {
+  background-color: #0dcaf0;
+  transform: rotateY(180deg);
+}
+
+/* END */
 
 
 
