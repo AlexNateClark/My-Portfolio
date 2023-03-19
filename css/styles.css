@@ -280,7 +280,10 @@ body {
   transform-style: preserve-3d;
 }
 
-.front-of-card, .back-of-card {
+
+
+
+.front-of-card-languages, .back-of-card-languages {
   height: 100%;
   width: 100%;
   border-radius: 2rem;
@@ -289,17 +292,101 @@ body {
   backface-visibility: hidden;
 }
 
-.front-of-card {
-  text-align: center;
-  background-color: #e5c7ca;
+.front-of-card-frameworks, .back-of-card-frameworks {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
 }
 
-.back-of-card {
+.front-of-card-databases, .back-of-card-databases {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front-of-card-tools, .back-of-card-tools {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+
+
+
+
+
+
+
+.front-of-card-languages {
+  color: #fff;
+  padding-top: 1rem;
+  text-align: center;
+  background-image: url(../assets/img/language-card.jpg);
+  /* filter: blur(2px); */
+  background-size: 100%;
+}
+.back-of-card-languages {
   background-color: #0dcaf0;
   transform: rotateY(180deg);
 }
 
+
+
+
+
+
+
+.front-of-card-frameworks {
+  color: #fff;
+  text-align: center;
+  background-color: chartreuse;
+  background-image: url(../assets/img/);
+  background-size: 100%;
+}
+.back-of-card-frameworks {
+  background-color: #0dcaf0;
+  transform: rotateY(180deg);
+}
+
+.front-of-card-databases {
+  color: #fff;
+  text-align: center;
+  background-color: chartreuse;
+  background-image: url(../assets/img/);
+  background-size: 100%;
+}
+.back-of-card-databases {
+  background-color: #0dcaf0;
+  transform: rotateY(180deg);
+}
+
+.front-of-card-tools {
+  color: #fff;
+  text-align: center;
+  background-color: chartreuse;
+  background-image: url(../assets/img/);
+  background-size: 100%;
+}
+.back-of-card-tools {
+  background-color: #0dcaf0;
+  transform: rotateY(180deg);
+}
+
+
+
 /* END */
+
+
+
 
 
 
