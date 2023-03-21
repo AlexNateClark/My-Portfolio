@@ -334,9 +334,28 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+
+
 .back-of-card-languages {
-  background-color: #0dcaf0;
+  display: flex;
+  gap: 1rem;
   transform: rotateY(180deg);
+}
+.back-of-card-languages > div {
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+  background-image: url(../assets/img/cards-python-image.jpg);
+}
+.back-of-card-languages > div :hover {
+  flex: 5;
+}
+.lang-background-image{
+  margin-bottom: -2rem;
 }
 
 
