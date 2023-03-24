@@ -337,17 +337,99 @@ body {
 
 
 
+
+
+
+
+
+
 .back-of-card-languages {
+  padding-top: 1rem;
   display: flex;
-  gap: 1rem;
   transform: rotateY(180deg);
+  background-image: linear-gradient(to right bottom, #747474, #23282d );
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
 }
-.back-of-card-languages > div {
+
+.back-of-card-languages::before,
+.back-of-card-languages::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: -.5rem;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    #a8f1ff,
+    #0dcaf0,
+    #005e71,
+    #0dcaf0,
+    #a8f1ff);
+    border-radius: 2rem;
+    animation: rotation 20s linear infinite;
+}
+
+.back-of-card-languages::after{
+  filter: blur(3.5rem);
+}
+@property --gradient-angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+:root {
+  color: #005e71;
+  color: #0dcaf0;
+  color: #a8f1ff;
+}
+
+@keyframes rotation{
+  0% { --gradient-angle: 0deg;}
+  100% {--gradient-angle: 360deg;}
+}
+
+
+
+
+
+.lang-background-py{
+  padding-top: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+  height: 7rem;
+  width: 15rem;
+  background-color: #20c997;
+}
+.lang-background-js{
+  padding-top: 2rem;
+  text-align: center;
+  height: 7rem;
+  width: 15rem;
+  background-color: #20c997;
+}
+.lang-background-html{
+  padding-top: 2rem;
+  text-align: center;
+  height: 7rem;
+  width: 15rem;
+  background-color: #20c997;
+}
+
+.lang-background-css{
+  padding-top: 2rem;
+  text-align: center;
+  width: 15rem;
+  height: 7rem;
+  background-color: #20c997;
+}
+
+/* .back-of-card-languages > div {
   flex: 1;
   border-radius: 1rem;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
   transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
   background-image: url(../assets/img/cards-python-image.jpg);
 }
@@ -355,9 +437,8 @@ body {
   flex: 5;
 }
 .lang-background-image{
-  margin-bottom: -2rem;
-}
-
+  background-color: #0dcaf0;
+} */
 
 
 
