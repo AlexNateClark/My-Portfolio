@@ -290,6 +290,12 @@ body {
 
 
 
+
+
+
+
+        /* LANGUAGES CARD */
+
 .front-of-card-languages, .back-of-card-languages {
   height: 100%;
   width: 100%;
@@ -299,43 +305,6 @@ body {
   backface-visibility: hidden;
 }
 
-.front-of-card-frameworks, .back-of-card-frameworks {
-  height: 100%;
-  width: 100%;
-  border-radius: 2rem;
-  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
-  position: absolute;
-  backface-visibility: hidden;
-}
-
-.front-of-card-databases, .back-of-card-databases {
-  height: 100%;
-  width: 100%;
-  border-radius: 2rem;
-  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
-  position: absolute;
-  backface-visibility: hidden;
-}
-
-.front-of-card-tools, .back-of-card-tools {
-  height: 100%;
-  width: 100%;
-  border-radius: 2rem;
-  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
-  position: absolute;
-  backface-visibility: hidden;
-}
-
-
-
-
-
-
-
-
-
-
-
 .front-of-card-languages {
   color: #fff;
   padding-top: 1rem;
@@ -344,8 +313,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-      /* THIS IS THE BACK OF THE CARD & ALL EDITS - LANGUAGES CARD */
-  /* person */
+
 .back-of-card-languages {
   padding-top: 1rem;
   display: flex;
@@ -480,7 +448,16 @@ body {
 
 
 
-        /* EDIT  FRAMEWORKS CARD */
+        /* FRAMEWORKS CARD */
+
+.front-of-card-frameworks, .back-of-card-frameworks {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
 
 .front-of-card-frameworks {
   color: #fff;
@@ -542,17 +519,6 @@ body {
   100% {--gradient-angle: 360deg;}
 }
 
-.person_img{
-  max-width: 8.5rem;
-  position: relative;
- }
-
-.boc_text{
-  margin-top: -8rem;
-  margin-right: -6rem;
-  color: #fff;
-}
- /* person__container */
 .frame-background-django{
   border-radius: 2rem;
   text-align: center;
@@ -611,7 +577,16 @@ body {
 
 
 
-            /* EDIT DATABASES CARD*/
+            /* DATABASES CARD */
+
+.front-of-card-databases, .back-of-card-databases {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
 
 .front-of-card-databases {
   color: #fff;
@@ -672,10 +647,6 @@ body {
   100% {--gradient-angle: 360deg;}
 }
 
-.boc_text_sqlite{
-  color: #fff;
-}
-
 .data-background-sql{
   border-radius: 2rem;
   text-align: center;
@@ -695,7 +666,7 @@ body {
   width: 15rem;
   background-size: 100%;
   background-position: left;
-  background-image: url(../assets/img/cropped_js_img.png);
+  background-image: url(../assets/img/sqlite_img.png);
   aspect-ratio: 1 / 1.5;
   display: grid;
   align-items: flex-start;
@@ -714,7 +685,16 @@ body {
 
 
 
-              /* EDIT TOOLS CARD */
+              /* TOOLS CARD */
+
+.front-of-card-tools, .back-of-card-tools {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
 
 .front-of-card-tools {
   color: #fff;
@@ -776,75 +756,47 @@ body {
   100% {--gradient-angle: 360deg;}
 }
 
-.person_img{
-  max-width: 8.5rem;
-  position: relative;
- }
-
-.boc_text{
-  margin-top: -8rem;
-  margin-right: -6rem;
-  color: #fff;
-}
- /* person__container */
-.lang-background-py{
-  border-radius: 2rem;
-  text-align: center;
-  height: 7rem;
-  width: 15rem;
-  background-image: url(../assets/img/pic_of_grass.png);
-  aspect-ratio: 1 / 1.5;
-  display: grid;
-  align-items: flex-start;
-}
-
-.lang-background-js{
+.tools-background-ajax{
   border-radius: 2rem;
   text-align: center;
   height: 7rem;
   width: 15rem;
   background-size: 100%;
-  background-position: left;
-  background-image: url(../assets/img/cropped_js_img.png);
+  background-image: url(../assets/img/ajax_img.png);
   aspect-ratio: 1 / 1.5;
   display: grid;
   align-items: flex-start;
 }
 
-.lang-background-html{
+.tools-background-api{
   border-radius: 2rem;
   text-align: center;
-  height: 8rem;
+  height: 7rem;
+  width: 15rem;
+  background-size: 100%;
+  background-image: url(../assets/img/api_img.png);
+  aspect-ratio: 1 / 1.5;
+  display: grid;
+  align-items: flex-start;
+}
+
+.tools-background-bcrypt{
+  border-radius: 2rem;
+  text-align: center;
+  height: 7rem;
   width: 15rem;
   background-size: cover;
   background-position: end;
-  background-image: url(../assets/img/cropped_css_img.png);
+  background-image: url(../assets/img/bcrypt_img.png);
 }
 
-.boc_text_html{
-  color: #fff;
-  margin-top: 3rem;
-  margin-right: 9rem;
-}
-
-.lang-background-css{
+.tools-background-gunicorn{
   border-radius: 2rem;
-  height: 8rem;
+  height: 7rem;
   width: 15rem;
   background-size: 100%;
-  background-position: bottom;
-  background-image: url(../assets/img/css_img.jpg);
+  background-image: url(../assets/img/gunicorn_img.png);
 }
-
-.boc_text_css{
-  margin-top: 3rem;
-  margin-left: 10rem;
-  color: #fff;
-}
-
-
-
-
 /* END */
 
 
