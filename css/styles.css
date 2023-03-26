@@ -232,6 +232,11 @@ body {
 
 
 
+
+
+
+
+
 /* ABOUT ME  */
 
 .about_timeline_image{
@@ -239,6 +244,12 @@ body {
   height: 100%;
   border-radius: 50%
 }
+
+/* END */
+
+
+
+
 
 
 
@@ -322,6 +333,9 @@ body {
 
 
 
+
+
+
 .front-of-card-languages {
   color: #fff;
   padding-top: 1rem;
@@ -330,13 +344,12 @@ body {
   background-size: cover;
   background-position: center;
 }
-
+      /* THIS IS THE BACK OF THE CARD & ALL EDITS - LANGUAGES CARD */
   /* person */
 .back-of-card-languages {
   padding-top: 1rem;
   display: flex;
   transform: rotateY(180deg);
-  background-image: linear-gradient(to right bottom, #747474, #23282d );
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -367,11 +380,13 @@ body {
 .back-of-card-languages::after{
   filter: blur(3.5rem);
 }
+
 @property --gradient-angle{
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
 }
+
 :root {
   color: #005e71;
   color: #0dcaf0;
@@ -383,16 +398,11 @@ body {
   100% {--gradient-angle: 360deg;}
 }
 
-
-
-
-              /*      CURRENT EDIT    03/25/23   */
-
-
 .person_img{
   max-width: 8.5rem;
   position: relative;
  }
+
 .boc_text{
   margin-top: -8rem;
   margin-right: -6rem;
@@ -404,15 +414,11 @@ body {
   text-align: center;
   height: 7rem;
   width: 15rem;
-  /* position: absolute; */
   background-image: url(../assets/img/pic_of_grass.png);
   aspect-ratio: 1 / 1.5;
   display: grid;
   align-items: flex-start;
 }
-
-
-
 
 .lang-background-js{
   border-radius: 2rem;
@@ -421,14 +427,11 @@ body {
   width: 15rem;
   background-size: 100%;
   background-position: left;
-  /* position: absolute; */
   background-image: url(../assets/img/cropped_js_img.png);
   aspect-ratio: 1 / 1.5;
   display: grid;
   align-items: flex-start;
 }
-
-
 
 .lang-background-html{
   border-radius: 2rem;
@@ -437,12 +440,9 @@ body {
   width: 15rem;
   background-size: cover;
   background-position: end;
-  /* position: absolute; */
   background-image: url(../assets/img/cropped_css_img.png);
-  /* aspect-ratio: 1 / 1.5; */
-  /* display: grid;
-  align-items: flex-start; */
 }
+
 .boc_text_html{
   color: #fff;
   margin-top: 3rem;
@@ -451,18 +451,13 @@ body {
 
 .lang-background-css{
   border-radius: 2rem;
-  /* text-align: center; */
   height: 8rem;
   width: 15rem;
   background-size: 100%;
   background-position: bottom;
-  /* background-repeat: no-repeat; */
-  /* position: absolute; */
   background-image: url(../assets/img/css_img.jpg);
-  /* aspect-ratio: 1 / 1.5; */
-  /* display: grid;
-  align-items: flex-end; */
 }
+
 .boc_text_css{
   margin-top: 3rem;
   margin-left: 10rem;
@@ -480,6 +475,13 @@ body {
 
 
 
+
+
+
+
+
+        /* EDIT  FRAMEWORKS CARD */
+
 .front-of-card-frameworks {
   color: #fff;
   padding-top: 1rem;
@@ -489,11 +491,127 @@ body {
   background-position: center;
 }
 .back-of-card-frameworks {
-  background-color: #0dcaf0;
+  padding-top: 1rem;
+  display: flex;
   transform: rotateY(180deg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  margin-inline: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  inset: auto 0 0;
+}
+
+.back-of-card-frameworks::before,
+.back-of-card-frameworks::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: -.5rem;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    #a8f1ff,
+    #0dcaf0,
+    #005e71,
+    #0dcaf0,
+    #a8f1ff);
+    border-radius: 2rem;
+    animation: rotation 20s linear infinite;
+}
+
+.back-of-card-frameworks::after{
+  filter: blur(3.5rem);
+}
+
+@property --gradient-angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+:root {
+  color: #005e71;
+  color: #0dcaf0;
+  color: #a8f1ff;
+}
+
+@keyframes rotation{
+  0% { --gradient-angle: 0deg;}
+  100% {--gradient-angle: 360deg;}
+}
+
+.person_img{
+  max-width: 8.5rem;
+  position: relative;
+ }
+
+.boc_text{
+  margin-top: -8rem;
+  margin-right: -6rem;
+  color: #fff;
+}
+ /* person__container */
+.frame-background-django{
+  border-radius: 2rem;
+  text-align: center;
+  height: 7rem;
+  width: 15rem;
+  background-size: 100%;
+  background-image: url(../assets/img/django_img.png);
+  aspect-ratio: 1 / 1.5;
+  display: grid;
+  align-items: flex-start;
+}
+
+.frame-background-flask{
+  border-radius: 2rem;
+  text-align: center;
+  height: 7rem;
+  width: 15rem;
+  background-size: 100%;
+  background-position: left;
+  background-image: url(../assets/img/flask_img.png);
+  aspect-ratio: 1 / 1.5;
+  display: grid;
+  align-items: flex-start;
+}
+
+.frame-background-bootstrap{
+  border-radius: 2rem;
+  text-align: center;
+  height: 8rem;
+  width: 15rem;
+  background-size: cover;
+  background-position: end;
+  background-image: url(../assets/img/bootstrap_img.png);
+}
+.boc_text_bs{
+  color: #fff;
+  margin-top: 3rem;
+  margin-left: 7.5rem;
+  font-size: small;
+  transform: rotate(-13deg);
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /* EDIT DATABASES CARD*/
 
 .front-of-card-databases {
   color: #fff;
@@ -504,11 +622,137 @@ body {
   background-position: center;
 }
 .back-of-card-databases {
-  background-color: #0dcaf0;
+  padding-top: 1rem;
+  display: flex;
   transform: rotateY(180deg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  margin-inline: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  inset: auto 0 0;
+}
+
+.back-of-card-databases::before,
+.back-of-card-databases::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: -.5rem;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    #a8f1ff,
+    #0dcaf0,
+    #005e71,
+    #0dcaf0,
+    #a8f1ff);
+    border-radius: 2rem;
+    animation: rotation 20s linear infinite;
+}
+
+.back-of-card-databases::after{
+  filter: blur(3.5rem);
+}
+
+@property --gradient-angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+:root {
+  color: #005e71;
+  color: #0dcaf0;
+  color: #a8f1ff;
+}
+
+@keyframes rotation{
+  0% { --gradient-angle: 0deg;}
+  100% {--gradient-angle: 360deg;}
+}
+
+.person_img{
+  max-width: 8.5rem;
+  position: relative;
+ }
+
+.boc_text{
+  margin-top: -8rem;
+  margin-right: -6rem;
+  color: #fff;
+}
+ /* person__container */
+.lang-background-py{
+  border-radius: 2rem;
+  text-align: center;
+  height: 7rem;
+  width: 15rem;
+  background-image: url(../assets/img/pic_of_grass.png);
+  aspect-ratio: 1 / 1.5;
+  display: grid;
+  align-items: flex-start;
+}
+
+.lang-background-js{
+  border-radius: 2rem;
+  text-align: center;
+  height: 7rem;
+  width: 15rem;
+  background-size: 100%;
+  background-position: left;
+  background-image: url(../assets/img/cropped_js_img.png);
+  aspect-ratio: 1 / 1.5;
+  display: grid;
+  align-items: flex-start;
+}
+
+.lang-background-html{
+  border-radius: 2rem;
+  text-align: center;
+  height: 8rem;
+  width: 15rem;
+  background-size: cover;
+  background-position: end;
+  background-image: url(../assets/img/cropped_css_img.png);
+}
+
+.boc_text_html{
+  color: #fff;
+  margin-top: 3rem;
+  margin-right: 9rem;
+}
+
+.lang-background-css{
+  border-radius: 2rem;
+  height: 8rem;
+  width: 15rem;
+  background-size: 100%;
+  background-position: bottom;
+  background-image: url(../assets/img/css_img.jpg);
+}
+
+.boc_text_css{
+  margin-top: 3rem;
+  margin-left: 10rem;
+  color: #fff;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+              /* EDIT TOOLS CARD */
 
 .front-of-card-tools {
   color: #fff;
@@ -519,9 +763,123 @@ body {
   background-position: center;
 }
 .back-of-card-tools {
-  background-color: #0dcaf0;
+  padding-top: 1rem;
+  display: flex;
   transform: rotateY(180deg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  margin-inline: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  inset: auto 0 0;
 }
+
+.back-of-card-tools::before,
+.back-of-card-tools::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: -.5rem;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    #a8f1ff,
+    #0dcaf0,
+    #005e71,
+    #0dcaf0,
+    #a8f1ff);
+    border-radius: 2rem;
+    animation: rotation 20s linear infinite;
+}
+
+.back-of-card-tools::after{
+  filter: blur(3.5rem);
+}
+
+@property --gradient-angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+:root {
+  color: #005e71;
+  color: #0dcaf0;
+  color: #a8f1ff;
+}
+
+@keyframes rotation{
+  0% { --gradient-angle: 0deg;}
+  100% {--gradient-angle: 360deg;}
+}
+
+.person_img{
+  max-width: 8.5rem;
+  position: relative;
+ }
+
+.boc_text{
+  margin-top: -8rem;
+  margin-right: -6rem;
+  color: #fff;
+}
+ /* person__container */
+.lang-background-py{
+  border-radius: 2rem;
+  text-align: center;
+  height: 7rem;
+  width: 15rem;
+  background-image: url(../assets/img/pic_of_grass.png);
+  aspect-ratio: 1 / 1.5;
+  display: grid;
+  align-items: flex-start;
+}
+
+.lang-background-js{
+  border-radius: 2rem;
+  text-align: center;
+  height: 7rem;
+  width: 15rem;
+  background-size: 100%;
+  background-position: left;
+  background-image: url(../assets/img/cropped_js_img.png);
+  aspect-ratio: 1 / 1.5;
+  display: grid;
+  align-items: flex-start;
+}
+
+.lang-background-html{
+  border-radius: 2rem;
+  text-align: center;
+  height: 8rem;
+  width: 15rem;
+  background-size: cover;
+  background-position: end;
+  background-image: url(../assets/img/cropped_css_img.png);
+}
+
+.boc_text_html{
+  color: #fff;
+  margin-top: 3rem;
+  margin-right: 9rem;
+}
+
+.lang-background-css{
+  border-radius: 2rem;
+  height: 8rem;
+  width: 15rem;
+  background-size: 100%;
+  background-position: bottom;
+  background-image: url(../assets/img/css_img.jpg);
+}
+
+.boc_text_css{
+  margin-top: 3rem;
+  margin-left: 10rem;
+  color: #fff;
+}
+
 
 
 
