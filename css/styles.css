@@ -255,10 +255,6 @@ body {
   margin-bottom: 1rem;
 }
 
-
-
-
-
 .card-container {
   max-width: 35rem;
   height: 17rem;
@@ -335,14 +331,7 @@ body {
   background-position: center;
 }
 
-
-
-
-
-
-
-
-
+  /* person */
 .back-of-card-languages {
   padding-top: 1rem;
   display: flex;
@@ -352,6 +341,10 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   position: relative;
+  margin-inline: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  inset: auto 0 0;
 }
 
 .back-of-card-languages::before,
@@ -393,52 +386,96 @@ body {
 
 
 
+              /*      CURRENT EDIT    03/25/23   */
 
+
+.person_img{
+  max-width: 8.5rem;
+  position: relative;
+ }
+.boc_text{
+  margin-top: -8rem;
+  margin-right: -6rem;
+  color: #fff;
+}
+ /* person__container */
 .lang-background-py{
-  padding-top: 2rem;
   border-radius: 2rem;
   text-align: center;
   height: 7rem;
   width: 15rem;
-  background-color: #20c997;
+  /* position: absolute; */
+  background-image: url(../assets/img/pic_of_grass.png);
+  aspect-ratio: 1 / 1.5;
+  display: grid;
+  align-items: flex-start;
 }
+
+
+
+
 .lang-background-js{
-  padding-top: 2rem;
+  border-radius: 2rem;
   text-align: center;
   height: 7rem;
   width: 15rem;
-  background-color: #20c997;
+  background-size: 100%;
+  background-position: left;
+  /* position: absolute; */
+  background-image: url(../assets/img/cropped_js_img.png);
+  aspect-ratio: 1 / 1.5;
+  display: grid;
+  align-items: flex-start;
 }
+
+
+
 .lang-background-html{
-  padding-top: 2rem;
+  border-radius: 2rem;
   text-align: center;
-  height: 7rem;
+  height: 8rem;
   width: 15rem;
-  background-color: #20c997;
+  background-size: cover;
+  background-position: end;
+  /* position: absolute; */
+  background-image: url(../assets/img/cropped_css_img.png);
+  /* aspect-ratio: 1 / 1.5; */
+  /* display: grid;
+  align-items: flex-start; */
+}
+.boc_text_html{
+  color: #fff;
+  margin-top: 3rem;
+  margin-right: 9rem;
 }
 
 .lang-background-css{
-  padding-top: 2rem;
-  text-align: center;
+  border-radius: 2rem;
+  /* text-align: center; */
+  height: 8rem;
   width: 15rem;
-  height: 7rem;
-  background-color: #20c997;
+  background-size: 100%;
+  background-position: bottom;
+  /* background-repeat: no-repeat; */
+  /* position: absolute; */
+  background-image: url(../assets/img/css_img.jpg);
+  /* aspect-ratio: 1 / 1.5; */
+  /* display: grid;
+  align-items: flex-end; */
+}
+.boc_text_css{
+  margin-top: 3rem;
+  margin-left: 10rem;
+  color: #fff;
 }
 
-/* .back-of-card-languages > div {
-  flex: 1;
-  border-radius: 1rem;
-  background-position: center;
-  background-size: contain;
-  transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
-  background-image: url(../assets/img/cards-python-image.jpg);
-}
-.back-of-card-languages > div :hover {
-  flex: 5;
-}
-.lang-background-image{
-  background-color: #0dcaf0;
-} */
+
+
+
+
+
+
+
 
 
 
@@ -465,7 +502,6 @@ body {
   padding-top: .5rem;
   background-size: cover;
   background-position: center;
-
 }
 .back-of-card-databases {
   background-color: #0dcaf0;
