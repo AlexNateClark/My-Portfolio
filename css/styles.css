@@ -622,10 +622,9 @@ body {
   background-position: center;
 }
 .back-of-card-databases {
-  padding-top: 1rem;
-  display: flex;
   transform: rotateY(180deg);
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
   position: relative;
@@ -673,29 +672,23 @@ body {
   100% {--gradient-angle: 360deg;}
 }
 
-.person_img{
-  max-width: 8.5rem;
-  position: relative;
- }
-
-.boc_text{
-  margin-top: -8rem;
-  margin-right: -6rem;
+.boc_text_sqlite{
   color: #fff;
 }
- /* person__container */
-.lang-background-py{
+
+.data-background-sql{
   border-radius: 2rem;
   text-align: center;
   height: 7rem;
   width: 15rem;
-  background-image: url(../assets/img/pic_of_grass.png);
+  background-size: cover;
+  background-image: url(../assets/img/mysql_img.png);
   aspect-ratio: 1 / 1.5;
   display: grid;
   align-items: flex-start;
 }
 
-.lang-background-js{
+.data-background-sqlite{
   border-radius: 2rem;
   text-align: center;
   height: 7rem;
@@ -706,37 +699,6 @@ body {
   aspect-ratio: 1 / 1.5;
   display: grid;
   align-items: flex-start;
-}
-
-.lang-background-html{
-  border-radius: 2rem;
-  text-align: center;
-  height: 8rem;
-  width: 15rem;
-  background-size: cover;
-  background-position: end;
-  background-image: url(../assets/img/cropped_css_img.png);
-}
-
-.boc_text_html{
-  color: #fff;
-  margin-top: 3rem;
-  margin-right: 9rem;
-}
-
-.lang-background-css{
-  border-radius: 2rem;
-  height: 8rem;
-  width: 15rem;
-  background-size: 100%;
-  background-position: bottom;
-  background-image: url(../assets/img/css_img.jpg);
-}
-
-.boc_text_css{
-  margin-top: 3rem;
-  margin-left: 10rem;
-  color: #fff;
 }
 
 
