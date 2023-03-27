@@ -244,6 +244,16 @@ body {
   height: 100%;
   border-radius: 50%
 }
+.timeline_bot_text{
+  padding-top: 1rem;
+  z-index: 101;
+  color: #fff;
+  background-color: #1db7ff;
+  max-width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
 
 /* END */
 
@@ -12331,7 +12341,7 @@ header.masthead .masthead-heading {
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
   line-height: 14px;
-  margin-top: 12px;
+  /* margin-top: 12px; */
 }
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
@@ -12388,7 +12398,7 @@ header.masthead .masthead-heading {
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 13px;
     line-height: 18px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
@@ -12411,7 +12421,7 @@ header.masthead .masthead-heading {
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 18px;
     line-height: 26px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
