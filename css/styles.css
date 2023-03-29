@@ -245,7 +245,7 @@ body {
   border-radius: 50%
 }
 .timeline_bot_text{
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   z-index: 101;
   color: #fff;
   background-color: #1db7ff;
@@ -295,6 +295,30 @@ body {
   position: relative;
   transition: transform 2s;
   transform-style: preserve-3d;
+}
+@media (max-width: 768px){
+  .skill-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21rem;
+    margin-top: 15rem;
+  }
+}
+@media (max-width: 992px){
+  .skill-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21rem;
+    margin-top: 15rem;
+  }
+}
+@media (max-width: 1200px){
+  .skill-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21rem;
+    margin-top: 15rem;
+  }
 }
 
 
@@ -380,7 +404,9 @@ body {
   margin-right: -6rem;
   color: #fff;
 }
- /* person__container */
+
+
+
 .lang-background-py{
   border-radius: 2rem;
   text-align: center;
@@ -391,6 +417,38 @@ body {
   display: grid;
   align-items: flex-start;
 }
+
+/* @media (max-width: 768px){
+  .lang-background-py, .person_img{
+    max-height: 5rem;
+    width: 10rem;
+  }
+}
+@media (max-width: 768px){
+  .boc_text{
+    font-size: x-small;
+    }
+}
+
+@media (max-width: 992px){
+  .lang-background-py, .person_img{
+    max-height: 5rem;
+    width: 10rem;
+  }
+}
+
+@media (max-width: 1200px){
+  .lang-background-py, .person_img{
+    max-height: 7rem;
+    width: 12rem;
+  }
+} */
+
+
+
+
+
+
 
 .lang-background-js{
   border-radius: 2rem;
@@ -404,6 +462,18 @@ body {
   display: grid;
   align-items: flex-start;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .lang-background-html{
   border-radius: 2rem;
@@ -421,6 +491,16 @@ body {
   margin-right: 9rem;
 }
 
+
+
+
+
+
+
+
+
+
+
 .lang-background-css{
   border-radius: 2rem;
   height: 8rem;
@@ -435,6 +515,20 @@ body {
   margin-left: 10rem;
   color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -12311,7 +12405,7 @@ header.masthead .masthead-heading {
 .timeline > li .timeline-panel:after {
   right: auto;
   left: -14px;
-  border-right-width: 14px;
+  border-right-width: 14px; 
   border-left-width: 0;
 }
 .timeline > li .timeline-image {
@@ -12329,7 +12423,6 @@ header.masthead .masthead-heading {
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
   line-height: 14px;
-  /* margin-top: 12px; */
 }
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
@@ -12383,10 +12476,10 @@ header.masthead .masthead-heading {
     height: 100px;
     margin-left: -50px;
   }
-  .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+  .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 .timeline_bot_text{
     font-size: 13px;
     line-height: 18px;
-    /* margin-top: 16px; */
+    margin-top: auto;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
@@ -12406,10 +12499,10 @@ header.masthead .masthead-heading {
     height: 150px;
     margin-left: -75px;
   }
-  .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+  .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 .timeline_bot_text{
     font-size: 18px;
     line-height: 26px;
-    /* margin-top: 30px; */
+    margin-top: auto;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
@@ -12427,8 +12520,8 @@ header.masthead .masthead-heading {
     height: 170px;
     margin-left: -85px;
   }
-  .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-    margin-top: 40px;
+  .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 .timeline_bot_text{
+    margin-top: auto;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
