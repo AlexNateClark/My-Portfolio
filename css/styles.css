@@ -510,7 +510,8 @@ body {
   text-align: center;
   height: 7rem;
   width: 15rem;
-  background-image: url(../assets/img/pic_of_grass.png);
+  background-size: 100%;
+  background-image: url(../assets/img/n_python_img.png);
   aspect-ratio: 1 / 1.5;
   display: grid;
   align-items: flex-start;
