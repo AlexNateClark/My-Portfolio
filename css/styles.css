@@ -517,38 +517,6 @@ body {
   align-items: flex-start;
 }
 
-/* @media (max-width: 768px){
-  .lang-background-py, .person_img{
-    max-height: 5rem;
-    width: 10rem;
-  }
-}
-@media (max-width: 768px){
-  .boc_text{
-    font-size: x-small;
-    }
-}
-
-@media (max-width: 992px){
-  .lang-background-py, .person_img{
-    max-height: 5rem;
-    width: 10rem;
-  }
-}
-
-@media (max-width: 1200px){
-  .lang-background-py, .person_img{
-    max-height: 7rem;
-    width: 12rem;
-  }
-} */
-
-
-
-
-
-
-
 .lang-background-js{
   border-radius: 2rem;
   text-align: center;
@@ -561,17 +529,6 @@ body {
   display: grid;
   align-items: flex-start;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .lang-background-html{
@@ -594,12 +551,6 @@ body {
 
 
 
-
-
-
-
-
-
 .lang-background-css{
   border-radius: 2rem;
   height: 8rem;
@@ -614,20 +565,6 @@ body {
   margin-left: 10rem;
   color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -977,29 +914,10 @@ body {
 }
 
 
-
-
-
-
 /* END */
 
 
-
-
-
-
             /* END */
-
-
-
-
-
-
-
-
-
-
-
 
 
 
